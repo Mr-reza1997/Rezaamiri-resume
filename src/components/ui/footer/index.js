@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './footer.module.scss';
-import Icon from '../../../assets/svg/user-graduate-solid.svg';
-import IconLan from '../../../assets/svg/lan.g.svg';
+import Icon from '../../../assets/svg/aducat.gif';
+import IconLan from '../../../assets/svg/langu.gif';
 const Footer = () => {
     return (
         <>

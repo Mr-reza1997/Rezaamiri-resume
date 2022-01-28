@@ -4,7 +4,7 @@ import './programer.scss';
 import Button from '../button';
 import s from './header.module.scss';
 import Img from '../../../assets/images/photo-reza.jpg';
-import Icon from '../../../assets/svg/use.svg';
+import Icon from '../../../assets/svg/developer.gif';
 
 export const Header = () => {
     return (
@@ -19,11 +19,13 @@ export const Header = () => {
             <div className={s.head}>
                 <div className={s.left}>
                     <img src={Img} alt="photo" />
-                    <h2>Reza Amiri</h2>
+                    <h2>Reza Amiri
+                    </h2>
+                    {/* <img className={s.iconDev} src={IconDev} alt="2" /> */}
                 </div>
                 <div className={s.right}>
                     <div>
-                        <img src={Icon} alt="2" />
+                        <img className={s.gif1} src={Icon} alt="2" />
                         <h3>PROFILE</h3>
                         <hr />
                     </div>

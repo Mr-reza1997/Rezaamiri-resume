@@ -3,9 +3,9 @@ import { dataSkills, dataHobbies, dataAgent } from '../../globalData/DataUser';
 
 import s from './content.module.scss';
 
-import Icon from '../../../assets/svg/toolbox-solid.svg';
-import IconHub from '../../../assets/svg/hobbie.svg';
-import C from '../../../assets/svg/contact.svg';
+import Icon from '../../../assets/svg/skill1.gif';
+import IconHub from '../../../assets/svg/hoob.gif';
+import C from '../../../assets/svg/contact.gif';
 
 const Content = () => {
     const [itemSkill, setItemSkill] = useState(dataSkills);
